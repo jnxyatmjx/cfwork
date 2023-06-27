@@ -8,10 +8,6 @@
  * Learn more at https://developers.cloudflare.com/workers/
  */
 
-//import handleProxy from './proxy.js';
-//import handleRedirect from './redirect.js';
-//import apiRouter from './router.js';
-
 class WorkerError extends Error {
   constructor(statusCode, ...params) {
     super(...params)
